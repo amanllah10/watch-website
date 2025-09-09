@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="e-commerce-website-wrapper">
+        <section class="navbar-section">
+            <nav class="nav-display">
+                <div class="arrow-flex">
+                    <h2 class="aman-store-h2">Aman's Store</h2>
+                </div>
+                <ul class="nav-ul">
+                    <li class="nav-ul-li" onclick="gotoSpecific('.product-section')">Products</li>
+                    <li class="nav-ul-li" onclick="gotoSpecific('.special-and-discounts')">Discounts</li>
+                    <li class="nav-ul-li" onclick="gotoSpecific('.reviews-section')">Reviews</li>
+                    <li class="nav-ul-li" onclick="gotoSpecific('.signup-section')">sign up</li>
+                </ul>
+                <div class="cart-div-cont">
+
+                    <div class="cart-div">
+
+                        <h2 class="add-to-cart-h2">Add to Cart</h2>
+                        <div>
+                            <img class="nav-cart-img" src="./cart.png" alt="">
+                            <p class="quantity"></p>
+                        </div>
+                    </div>
+                </div>
+                <img class="menu" src="./menu2.webp" alt="">
+            </nav>
+        </section>
+        <section class="hero-section">
+            <div class="hero-section-headings">
+                <p class="bg-pink">Timeless Elegance</p>
+                <p class="mix-p"> <span class="bg-red">Discover Luxury </span>Watches That <span class="span2">Define
+                        Your Style</span></p>
+            </div>
+        </section>
+        <section class="product-section">
+            <h1 class="section-h1">Products</h1>
+            <div class="products">
+                <div class="product-grids">
+                    <img class="watches" src="./watch1.png" alt="">
+                    <p class="watch-names">Rolex Submariner</p>
+                    <p class="watch-price">price 20,000</p>
+                    <button class="watch-buttons">Add to Cart</button>
+                </div>
+                <div class="product-grids">
+                    <img class="watches" src="./watch2.png" alt="">
+                    <p class="watch-names">Omega Speedmaster</p>
+                    <p class="watch-price">price 25,000</p>
+                    <button class="watch-buttons">Add to Cart</button>
+                </div>
+                <div class="product-grids">
+                    <img class="watches" src="./watch3.png" alt="">
+                    <p class="watch-names">Tag Heuer Carrera</p>
+                    <p class="watch-price">price 28,000</p>
+                    <button class="watch-buttons">Add to Cart</button>
+                </div>
+                <div class="product-grids">
+                    <img class="watches" src="./watch4.webp" alt="">
+                    <p class="watch-names">Audemars Piguet Royal Oak</p>
+                    <p class="watch-price">price 18,000</p>
+                    <button class="watch-buttons">Add to Cart</button>
+                </div>
+                <div class="product-grids">
+                    <img src="./watch5.webp" alt="">
+                    <p class="watch-names">Patek Philippe Nautilus</p>
+                    <p class="watch-price">price 40,000</p>
+                    <button class="watch-buttons">Add to Cart</button>
+                </div>
+                <div class="product-grids">
+                    <img class="watches" src="./watch6.png" alt="">
+                    <p class="watch-names">Breitling Navitimer</p>
+                    <p class="watch-price">price 45,000</p>
+                    <button class="watch-buttons">Add to Cart</button>
+                </div>
+                <div class="product-grids">
+                    <img class="watches" src="./watch7.webp" alt="">
+                    <p class="watch-names">Cartier Santos</p>
+                    <p class="watch-price">price 50,000</p>
+                    <button class="watch-buttons">Add to Cart</button>
+                </div>
+                <div class="product-grids">
+                    <img src="./watch8.jpeg" alt="">
+                    <p class="watch-names">Seiko Prospex</p>
+                    <p class="watch-price">price 60,000</p>
+                    <button class="watch-buttons">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="special-and-discounts" onclick="gotoSpecific(()=>'special-and-discounts')">
+            <h1 class="section-h1">Special Discount Offers</h1>
+            <div class="discounts-offers">
+                <div class="product-grids">
+                    <img class="watches" src="./watch1.png" alt="">
+                    <p class="watch-names">Rolex Submariner</p>
+                    <p class="watch-price">price 20,000</p>
+                    <button class="watch-buttons">Add to Cart</button>
+                </div>
+                <div class="product-grids">
+                    <img class="watches" src="./watch3.png" alt="">
+                    <p class="watch-names">Tag Heuer Carrera</p>
+                    <p class="watch-price">price 28,000</p>
+                    <button class="watch-buttons">Add to Cart</button>
+                </div>
+                <div class="product-grids">
+                    <img class="watches" src="./watch4.webp" alt="">
+                    <p class="watch-names">Audemars Piguet Royal Oak</p>
+                    <p class="watch-price">price 18,000</p>
+                    <button class="watch-buttons">Add to Cart</button>
+                </div>
+                <div class="product-grids">
+                    <img class="watches" src="./watch7.webp" alt="">
+                    <p class="watch-names">Patek Philippe Nautilus</p>
+                    <p class="watch-price">price 40,000</p>
+                    <button class="watch-buttons">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+        <section class="background-watch-section">
+            hi
+        </section>
+
+        <section class="reviews-section">
+            <h1 class="section-h1">Reviews</h1>
+            <div class="reviews">
+                <div class="reviews-grids">
+                    <div>
+                        <div class="imgs-flex">
+
+                            <img class="men-imgs" src="./men1.avif" alt="">
+                            <div>
+                                <p>Pontings</p>
+                                <p>january 10 2025</p>
+                            </div>
+                        </div>
+                        <img src="./stars.png" alt="">
+                        <p class="reviews-p">I was amazed by the attention to detail in these luxury watches. The design
+                            is sleek, modern,
+                            yet timeless. The strap quality is excellent, and the dial shines with elegance. Wearing it
+                            instantly boosts confidence and style. Truly a luxury accessory that feels worth every penny
+                            spent on it.</p>
+                    </div>
+                </div>
+                <div class="reviews-grids">
+                    <div>
+                        <div class="imgs-flex">
+
+                            <img class="men-imgs" src="./men2.jpeg" alt="">
+                            <div>
+                                <p>Clark</p>
+                                <p>march 20 2025</p>
+                            </div>
+                        </div>
+                        <img src="./stars.png" alt="">
+                        <p class="reviews-p">These watches are a perfect blend of elegance and durability. The
+                            craftsmanship feels
+                            premium, with every detail reflecting luxury. They sit comfortably on the wrist and elevate
+                            any outfit, whether formal or casual. Truly timeless pieces that define style, making them a
+                            must-have for anyone who values sophistication.</p>
+                    </div>
+                </div>
+                <div class="reviews-grids">
+                    <div>
+                        <div class="imgs-flex">
+
+                            <img class="men-imgs" src="./men3.jpg" alt="">
+                            <div>
+                                <p>Nicholson</p>
+                                <p>july 25 2025</p>
+                            </div>
+                        </div>
+                        <img src="./stars.png" alt="">
+                        <p class="reviews-p">These watches combine style and functionality effortlessly. The precision
+                            of timekeeping is
+                            impressive, and the overall look catches attention wherever I go. It feels luxurious without
+                            being too flashy, making it versatile for every occasion. A perfect choice for those who
+                            want class, durability, and elegance in one package.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="signup-section">
+            <form action="">
+                <h3>Sign up</h3>
+                <input type="text" name="" id="" placeholder="Enter Your Name">
+                <input type="text" name="" id="" placeholder="Enter Your Father Name">
+                <input type="email" name="" id="" placeholder="Enter Your Email">
+                <button class="submit-button">submit</button>
+            </form>
+        </section>
+
+        <section class="footer-section">
+            <div class="footer">
+                <ul class="footer-ul">
+                    <li>Header</li>
+                    <li>Hero</li>
+                    <li>Products</li>
+                    <li>Sign up</li>
+                </ul>
+                <ul class="footer-ul">
+                    <li>Header</li>
+                    <li>Hero</li>
+                    <li>Products</li>
+                    <li>Sign up</li>
+                </ul>
+            </div>
+        </section>
+
+    </div>
+    <div class="arrow-cont">
+        <img class="arrow" src="./arrowbg.png" alt="">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
