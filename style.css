@@ -430,6 +430,9 @@ input[type=email] {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+    .product-section {
+        height: auto;
+    }
 }
 
 @media(max-width:1300px) {
