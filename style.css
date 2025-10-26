@@ -397,6 +397,10 @@ input[type=email] {
         grid-template-columns: 1fr 1fr 1fr;
     }
 
+    .product-section {
+        margin-top: 10vh;
+        height: auto;
+    }
 
     .discounts-offers {
         display: grid;
