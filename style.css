@@ -399,7 +399,7 @@ input[type=email] {
 
     .product-section {
         margin-top: 10vh;
-        height: auto;
+        height: auto!important;
     }
 
     .discounts-offers {
